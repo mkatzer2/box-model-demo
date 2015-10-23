@@ -13,7 +13,7 @@ aside.highlight {
 a:hover {
   color: red;
   font-size: 2em;
-}*/
+}
 
 h1:hover {
   color: darkorange;
@@ -33,7 +33,7 @@ article {
   margin: auto;
 }
 
-a::first-letter {
+p::first-letter {
   font-size: 1.5em;
 }
 
@@ -41,3 +41,25 @@ footer {
   border: 2px solid magenta;
   border-radius: 25px;
 }
+
+
+more specific takes precedence*/
+
+header img {
+  width: 33%;
+  border: 4px dashed yellow;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: line-through;
+  color: red;
+}
+
+/*more recent takes presedence*/
+
+p { color: magenta; }
+p { color:orange; }
