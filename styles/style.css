@@ -1,0 +1,9 @@
+body {
+      background-color: cornflowerblue;
+    }
+    h1 {
+      color: darkblue;
+    }
+    p { color: yellow; }
+    aside p { color: lightyellow; }
+    footer a {color: mediumpurple; }
