@@ -61,5 +61,5 @@ nav a {
 
 /*more recent takes presedence*/
 
-p { color: magenta; }
+p { color: lime; }
 p { color:orange; }
